@@ -1,0 +1,1 @@
+const Lexer = require("./lexer"); const Parser = require("./parser"); const Interpreter = require("./interpreter"); const code = `fn add(a, b) { return a + b; } let result = add(10, 20); print(result);`; const tokens = new Lexer(code).tokenize(); const ast = new Parser(tokens).parse(); const interpreter = new Interpreter(); interpreter.run(ast);

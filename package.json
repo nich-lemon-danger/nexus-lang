@@ -1,0 +1,1 @@
+{"name":"nexus-lang-naitik","version":"1.0.0","description":"Nexus - A fast, strongly typed general purpose programming language","main":"nexus.js","bin":{"nexus":"./nexus.js"},"keywords":["programming-language","nexus","compiler","interpreter"],"author":"Naitik","license":"MIT"}
